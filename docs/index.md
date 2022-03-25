@@ -1,5 +1,5 @@
 # FetchandRender
-<img src="./images/FetchandRender.png" height="300px" width="300px"/>
+<img src="./FetchandRender.png" height="300px" width="300px"/>
 
 ## Description 
 API Data Fetch and Render of the screen based on the data

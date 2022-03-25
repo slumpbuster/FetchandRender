@@ -7,7 +7,6 @@ const Pagination = ({ items, pageSize, onPageChange, currentPage }) => {
   let firstLast = false;
   if (num > 1) firstLast = true;
 
-
   const list = pages.map(page => {
     return (
       <li key={page} onClick={onPageChange} className="page-item">
@@ -199,6 +198,7 @@ function App() {
     if (elDetails != null) url += `&details=${String(elDetails.checked)}`;
     const elIcons = document.getElementById('hasIcons');
     if (elIcons != null) url += `&has_icon=${String(elIcons.checked)}`;
+    setCurrentPage(1);
     doFetch(url);
     event.preventDefault();
   };
