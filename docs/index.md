@@ -44,10 +44,12 @@ This was done as an assignment in the MIT course - Full Stack Development with M
 
 ---------
 
----------
-
 ## Contributing 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 [The MIT License (MIT)](https://github.com/slumpbuster/Formik/blob/main/LICENSE)
+
+---------
+
+## Return to [Slumpbuster Portfolio](https://slumpbuster.github.io/#portfolio)
